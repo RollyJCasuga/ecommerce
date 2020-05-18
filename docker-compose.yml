@@ -1,0 +1,9 @@
+lemp:
+  image: arjong/rpi4-lemp:1.0
+  container_name: liveeye
+  ports:
+    - '80:80'
+  volumes:
+    - ./html:/var/www/html
+    - ./php/php.ini:/etc/php/7.2/fpm/php.ini
+  restart: always
