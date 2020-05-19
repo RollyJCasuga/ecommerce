@@ -1,5 +1,5 @@
 lemp:
-  image: arjong/rpi4-lemp:1.0
+  image: arjong/rpi4-lemp:2.0
   container_name: liveeye
   ports:
     - '80:80'
