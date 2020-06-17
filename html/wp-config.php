@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'liveeyedb' );
+define( 'DB_NAME', 'store2db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'admin' );
@@ -46,15 +46,16 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'hRSP<]n9OD9)Zvn33~u/ynzrct(@i3Y:RpeD{Co.x^2@l5]l%s |Id^|l-}!]^aG' );
-define( 'SECURE_AUTH_KEY',  'Ma&7cC:QCpEhhyLaE)y`uGHp61^DxIAFi?yCC)N:X*fW9lVE=]VMM0I~aRI6}cGO' );
-define( 'LOGGED_IN_KEY',    'zNAj=sw|9>xy`tPzz=1*[st%,m,yRDrn[Aw@F#-]vYLHcx8we?3/A_;:<Xp?xV1n' );
-define( 'NONCE_KEY',        'x~q2QNw)mUVJ2oA@XS:esi0LGIMQRQeC`AiC6`>?SETkfYAzA)U8j|l}*_R5B$bq' );
-define( 'AUTH_SALT',        'GUUPI+T_/KRc@E#?2!zYEHp~>>|n#`F4`<}{l:C^A*mU@?lJ(R%^.!cGm%/)_R}`' );
-define( 'SECURE_AUTH_SALT', 'Sw _g,D/a{<Bbw%|mG)OR?@y+~kjo}m=}Y/xvN3lr;3q?zf@4>lTo!F4T_!Lmrvm' );
-define( 'LOGGED_IN_SALT',   'G4)jsJ4L/i6pI^Iz24!`OU@kP<Eb)YS-G]GE@)6jDE.]|?#wg[TcMxfCzVYeU>~C' );
-define( 'NONCE_SALT',       ':%L6SyTpGc]bp,DAX4;XZZ>.0,OkyenNR()d#HKGe!ib${7-jw{rED>1AS%bM4ye' );
-
+define( 'AUTH_KEY',         'Q_WB0H4;>ZULfH$y4wklrhsG~=*99OBQhf7:ikcyUm S4#YdRp]:GgQ/lnJzHyhp' );
+define( 'SECURE_AUTH_KEY',  'M2wWQ*u~&d];G35|)uR45ovfKuhI%Jf>J:7&y>]WbM+UeB$Jjvj:dacl_7c8B$fH' );
+define( 'LOGGED_IN_KEY',    'B9eQatxseCsCJ7;qW|&F_It#UujmjSblML59As#Nu<bGctTZ5Qk_wm@u,p<:P`O:' );
+define( 'NONCE_KEY',        'Y2W4Xsbr|gi<ebXJYj:(mW{:!XL3g#vkCtc{mPrDRXs[XdUtfAl|n]mOjYIa_LW;' );
+define( 'AUTH_SALT',        '8itvnD577]~|jsC 0Wzkl)/UX`?z$*Lw9((5QC|Ldy76O1OQuK6&&Q)6fL#BE oB' );
+define( 'SECURE_AUTH_SALT', 'YF77P5eo8`]NWO~v(-ljXNaEYo8eI~]W6$sS^V&<2Anp^hY?8s&G94?2Wl-/|YcH' );
+define( 'LOGGED_IN_SALT',   'sald9LS-^F[w+ BZ.lu{Z(]v-}ko~~9Y}.SM ZtqqK<5P2_U1R,jI3-YM1X%,hRG' );
+define( 'NONCE_SALT',       'QD+jVz]&$G![2]^EZ+mPGCdjS+RD:?_Y^bAGX}=Oc[:!SQC{v7+=9SfBk-4SZn`+' );
+	
+define('FS_METHOD', 'direct');
 /**#@-*/
 
 /**
@@ -63,7 +64,7 @@ define( 'NONCE_SALT',       ':%L6SyTpGc]bp,DAX4;XZZ>.0,OkyenNR()d#HKGe!ib${7-jw{
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'ID';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -88,12 +89,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
-define('FS_METHOD', 'ftpext');
-define('FTP_BASE', '/home/pi/liveeye/html/');
-define('FTP_CONTENT_DIR', '/home/pi/liveeye/html/wp-content/');
-define('FTP_PLUGIN_DIR ', '/home/pi/liveeye/html/wp-content/plugins/');
-define('FTP_USER', 'pi');
-define('FTP_PASS', 'raspberry');
-define('FTP_HOST', 'ftp://108.184.71.172');
-define('FTP_SSL', false);

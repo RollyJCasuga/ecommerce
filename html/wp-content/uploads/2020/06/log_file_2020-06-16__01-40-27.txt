@@ -1,0 +1,62 @@
+
+---Downloaded files---
+The import files for: Di eCommerce Demo Site were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://192.168.1.18:85
+Data file = /var/www/html/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/demo-content.xml
+Widget file = /var/www/html/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/widgets.wie
+Customizer file = /var/www/html/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/customizer.dat
+
+---Importing content---
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import pa_color Yellow
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Blog Sidebar : 
+
+Image - Image Widget - Imported
+Search - Search Website - Imported
+Recent Posts with Thumbnail - Recent Posts - Imported
+Categories - Post Categories - Imported
+Di eCommerce Social Profile - Social Links - Imported
+Audio - Audio Widget - Imported
+Video - Video Widget - Imported
+Text - Text Widget - Imported
+Gallery - Gallery Widget - Imported
+
+Page Sidebar : 
+
+Recent Posts with Thumbnail - Recent Posts - Imported
+Search - Search Website - Imported
+Audio - Audio Widget - Imported
+Image - Image Widget - Imported
+Video - Video Widget - Imported
+
+WooCommerce Sidebar : 
+
+Product Search - Search Products - Imported
+Filter Products by Price - Filter by price - Imported
+Products by Rating - Top rated products - Imported
+Gallery - Products Gallery - Imported
+
+Top Header right : 
+
+Custom HTML - No Title - Imported
+Product Search - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---dtdsi/after_import---
+
